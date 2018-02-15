@@ -1,0 +1,137 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+ 
+  <title>Checkout example for Bootstrap</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  
+  <link href="main.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+  <div class="container">
+    <div class="py-5 text-center">
+      <h2>JavaScript Assignment form</h2>
+      <p class="lead">Capture all input fields in a store and on click print it in console</p>
+    </div>
+
+  
+      <div></div></div>
+      <div class="col-md-8 order-md-1">
+        <h4 class="mb-3">Customer registeration form</h4>
+        <form class="needs-validation" novalidate="">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">First name</label>
+              <input class="form-control" id="firstName" placeholder="" value="" required="" type="text">
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Last name</label>
+              <input class="form-control" id="lastName" placeholder="" value="" required="" type="text">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+          </div>
+
+        
+
+          <div class="mb-3">
+            <label for="email">Email <span class="text-muted">(Optional)</span></label>
+            <input class="form-control" id="email" placeholder="you@example.com" type="email">
+            <div class="invalid-feedback">
+              Please enter a valid email address for shipping updates.
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="address">Address</label>
+            <input class="form-control" id="address" placeholder="1234 Main St" required="" type="text">
+            <div class="invalid-feedback">
+              Please enter your shipping address.
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-5 mb-3">
+              <label for="country">Country</label>
+              <select class="custom-select d-block w-100" id="country" required="">
+                <option value="">Choose...</option>
+                <option>United kingdom</option>
+                <option>Scotland</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+          
+            <div class="col-md-3 mb-3">
+              <label for="zip">Post Code</label>
+              <input class="form-control" id="postcode" placeholder="" required="" type="text">
+              <div class="invalid-feedback">
+                Post code required.
+              </div>
+            </div>
+          </div>
+
+          <h4 class="mb-3">Payment</h4>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="cc-name">Name on card</label>
+              <input class="form-control" id="cc-name" placeholder="" required="" type="text">
+              <div class="invalid-feedback">
+                Name on card is required
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="cc-number">Credit card number</label>
+              <input class="form-control" id="cc-number" placeholder="" required="" type="text">
+              <div class="invalid-feedback">
+                Credit card number is required
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <label for="cc-expiration">Expiration</label>
+              <input class="form-control" id="cc-expiration" placeholder="" required="" type="text">
+              <div class="invalid-feedback">
+                Expiration date required
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="cc-expiration">CVV</label>
+              <input class="form-control" id="cc-cvv" placeholder="" required="" type="text">
+              <div class="invalid-feedback">
+                Security code required
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <button class="btn btn-primary btn-lg btn-block" id="submit" type="submit">Submit button</button>
+        </form>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+
+  <script src="main.js"></script>
+  
+
+</body></html>
+
